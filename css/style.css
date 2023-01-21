@@ -2,12 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 h1{
     text-align: center;
     text-transform: capitalize;
     color: gray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 55px;
+    text-decoration: dashed underline;
+    padding-bottom: 10px;
+}
+.grid-container{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+gap: 10px;
+
+}
+.grid-item{
+border: 2px dashed black;
+text-align: center;
+text-transform: capitalize;
+padding: 10px;
+color: gray;
+font-weight: 900;
+cursor: pointer;
+transition: .3s;
+}
+.grid-item:hover{
+    background-color: aquamarine;
+    color: blue;
+    border: 2px dashed blue;
+
 }
