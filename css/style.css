@@ -35,3 +35,8 @@ transition: .3s;
     border: 2px dashed blue;
 
 }
+#days{
+    background-color: aquamarine;
+    color: black;
+    
+}
